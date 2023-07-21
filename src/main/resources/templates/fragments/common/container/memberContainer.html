@@ -1,0 +1,111 @@
+<style>
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+.container{
+    width: 100%;
+ 
+}
+
+.container .container-header{
+    width: 80%;
+    margin: 0px auto;
+
+}
+
+.container .main-section1 ul {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+</style>
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<div class="container" th:fragment="memberContainerFragments">
+
+<div class="container">
+    <div class="container-header">
+        <ul>
+            <li><a th:href="@{member/join}">회원 가입 하러 가기 ㄱㄱ?</a></li>
+            <li><a href="joinView">회원 가입 하러 가기 ㄱㄱ?</a></li>
+            <li><a href="member/joinView">회원 가입 하러 가기 ㄱㄱ?</a></li>
+        </ul>
+    </div>
+    <div class="main-section1">
+        <span>주간 인기글!!!</span>
+        <ul>
+            <li>test</li>
+            <li>test</li>
+            <li>test</li>
+            <li>test</li>
+            <li>test</li>
+            <li>test</li>
+            <li>test</li>
+            <li>test</li>
+        </ul>
+
+    </div>
+    <div class="main-section2">
+        <span>뭘 넣을지 모르겠옹</span>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</div>
+</div>
+</html>

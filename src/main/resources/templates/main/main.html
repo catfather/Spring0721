@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>main page 입니다</h1>
+
+    <div th:replace="/fragments/common/header :: headerFragments"></div>
+
+    <div th:replace="/fragments/common/mainContainer :: mainContainer"></div>
+
+    <div th:replace="/fragments/common/footer :: footerFragments"></div>
+</body>
+</html>

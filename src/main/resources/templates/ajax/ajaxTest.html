@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script th:src="@{/js/ajaxTest.js}" defer></script>
+</head>
+<body>
+  <button id="ajax">ajax1</button>
+  <button id="ajax2">ajax2</button>
+  <button id="ajax3">ajax3</button>
+  <button id="ajax4">ajax4</button>
+  <button id="ajax5">ajax5</button>
+  <button id="ajax7">ajax7</button>
+  <button id="ajax8">ajax8</button>
+  <button id="ajax9">ajax9</button>
+
+    <div class="result">
+        <div class="rs1">
+            name : <span class="name"> </span><br>
+            email : <span class="email"> </span>
+        </div>
+    </div>
+
+    <table class="rs2">
+    <thead>
+        <th>아이디</th>
+        <th>이름</th>
+        <th>이메일</th>
+    </thead>
+    <tbody class="rs3">
+
+    </tbody>
+    </table>
+</body>
+</html>
